@@ -1,0 +1,138 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+
+.ba-bg{
+	background: linear-gradient(to bottom left, #dd2476, #ff512f);
+	padding: 63px 0;
+	/* width: 800px;
+	height: 600px; */
+	/* height: auto; */
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+
+	/* на весь экран не стает  */
+}
+
+.ba-form{
+	background-color: #fff;
+	max-width: 460px;   
+	margin: 0 auto;
+	border-radius: 5px;
+	height: 470px;
+	width: 460px;
+	padding: 30px 30px;
+	/* display: block; */
+
+}
+
+.ba-form__hello{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+} 
+
+.ba-form img{
+	padding-right: 10px;
+}
+
+.ba-col-12 input{
+	display: block;
+	width: 100%;
+}
+
+.ba-row :nth-child(2){
+	margin-left: -8px;
+}
+
+p{
+	font-size: 13px;
+	letter-spacing: 0.02em;
+	padding-bottom: 10px;
+}
+
+.ba-float-label__input{
+	margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    width: 190px;
+	height: 40px;
+	padding-left: 12px;
+}
+
+button {
+    background-color: #ea355a;
+    box-shadow: 0px 3px 0px 0px #bd1962;
+    border-radius: 4px;
+    margin-top: 15px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    margin-bottom: 30px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+	line-height: 20px;
+}
+	
+.ba-form__title{
+	margin: 0px ;
+
+}
